@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>bài tập làm thêm buổi 4 js</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- bài tập 1 -->
+    <div class="d-flex justify-content-center">
+      <div class="border-danger card w-50">
+        <div
+          class="card-header bg-danger text-light font-weight-bold text-center"
+        >
+          Tính ngày tháng năm
+        </div>
+
+        <div class="form-group row">
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="nhapNgay1"
+              placeholder="Nhập Ngày"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="nhapThang1"
+              placeholder="Nhập Tháng"
+            />
+          </div>
+          <div class="col-4">
+            <input class="form-control" id="nhapNam" placeholder="Nhập Năm" />
+          </div>
+        </div>
+        <div class="card-footer">
+          <button id="btnHomQua" class="btn btn-danger mt-2">
+            Ngày hôm qua
+          </button>
+          <button id="btnNgayMai" class="btn btn-danger mt-2">Ngày Mai</button>
+          <div
+            class="text-center mt-2"
+            id="KetQuaLa"
+            style="width: 100%; height: 40px; border: 1px solid green"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <!-- bài tập 2 -->
+    <div class="d-flex justify-content-center">
+      <div class="border-danger card w-50">
+        <div
+          class="card-header bg-danger text-light font-weight-bold text-center"
+        >
+          Tính ngày
+        </div>
+        <div class="form-group row mt-2">
+          <div class="col-4">
+            <input class="form-control" id="thang" placeholder="Nhập Tháng" />
+          </div>
+          <div class="col-4">
+            <input class="form-control" id="nhapNam" placeholder="Nhập Năm" />
+          </div>
+        </div>
+        <div class="card-footer">
+          <button id="btnTinhNgay" class="btn btn-danger mt-2">
+            Tính ngày
+          </button>
+          <div
+            class="text-center mt-2"
+            id="KetQua"
+            style="width: 100%; height: 40px; border: 1px solid green"
+          ></div>
+        </div>
+      </div>
+      <br />
+    </div>
+    <!-- bài tập 3 -->
+    <br />
+    <div class="d-flex justify-content-center">
+      <div class="border-danger card w-50">
+        <div
+          class="card-header bg-danger text-light font-weight-bold text-center"
+        >
+          Đọc số
+        </div>
+        <div class="form-group row mt-2">
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="nhapSo"
+              placeholder="Nhập số có 3 chữ số"
+            />
+          </div>
+        </div>
+        <div class="card-footer">
+          <button id="btnDocSo" class="btn btn-danger mt-2">Đọc số</button>
+          <div
+            class="text-center mt-2"
+            id="KetQua1"
+            style="width: 100%; height: 40px; border: 1px solid green"
+          ></div>
+        </div>
+      </div>
+      <br />
+    </div>
+    <br />
+    <!-- bài tập 4 -->
+    <br />
+    <div class="d-flex justify-content-center">
+      <div class="border-danger card w-50">
+        <div
+          class="card-header bg-danger text-light font-weight-bold text-center"
+        >
+          Tìm sinh viên xa trường nhất
+        </div>
+        <p>sinh viên 1</p>
+        <div class="form-group row">
+          <div class="col-4">
+            <input class="form-control" id="nhapTen1" placeholder="Nhập tên" />
+          </div>
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="toaDoX1"
+              placeholder="Nhập tọa độ x"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="toaDoY1"
+              placeholder="Nhập tọa độ y"
+            />
+          </div>
+        </div>
+        <p>sinh viên 2</p>
+        <div class="form-group row">
+          <div class="col-4">
+            <input class="form-control" id="nhapTen2" placeholder="Nhập tên" />
+          </div>
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="toaDoX2"
+              placeholder="Nhập tọa độ x"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="toaDoY2"
+              placeholder="Nhập tọa độ y"
+            />
+          </div>
+        </div>
+        <p>sinh viên 3</p>
+        <div class="form-group row">
+          <div class="col-4">
+            <input class="form-control" id="nhapTen3" placeholder="Nhập tên" />
+          </div>
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="toaDoX3"
+              placeholder="Nhập tọa độ x"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="toaDoY3"
+              placeholder="Nhập tọa độ y"
+            />
+          </div>
+        </div>
+        <p>trường học</p>
+        <div class="form-group row">
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="toaDoX4"
+              placeholder="Nhập tọa độ x"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              class="form-control"
+              id="toaDoY4"
+              placeholder="Nhập tọa độ y"
+            />
+          </div>
+        </div>
+        <div class="card-footer">
+          <button id="btnTim" class="btn btn-danger mt-2">Tìm</button>
+          <div
+            class="text-center mt-2"
+            id="KetQuaToaDo"
+            style="width: 100%; height: 40px; border: 1px solid green"
+          ></div>
+        </div>
+      </div>
+      <br />
+    </div>
+    <br />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./mai.js"></script>
+  </body>
+</html>
